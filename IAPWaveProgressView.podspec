@@ -9,20 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = 'IAPWaveProgressView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IAPWaveProgressView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = '内购水波过度动画.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  内购水波过度动画，分为三个过程，准备支付，支付中（验证中），支付完成，分别有对应的动画展示。
                        DESC
 
-  s.homepage         = 'https://github.com/fuyoufang@163.com/IAPWaveProgressView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/FuYouFang/IAPWaveProgressView.git'
+  s.swift_version = '5.0'
+  s.screenshots     = 'https://github.com/FuYouFang/IAPWaveProgressView/Images/main.png', 'https://github.com/FuYouFang/IAPWaveProgressView/Images/paying.png', 'https://github.com/FuYouFang/IAPWaveProgressView/Images/complate.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fuyoufang@163.com' => 'fuyoufang@163.com' }
   s.source           = { :git => 'https://github.com/fuyoufang@163.com/IAPWaveProgressView.git', :tag => s.version.to_s }
@@ -38,5 +33,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Then'
+  s.dependency 'SnapKit'
+  
 end

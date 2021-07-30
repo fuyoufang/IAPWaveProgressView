@@ -1,0 +1,32 @@
+{
+  "name": "IAPWaveProgressView",
+  "version": "0.1.0",
+  "summary": "A short description of IAPWaveProgressView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fuyoufang@163.com/IAPWaveProgressView",
+  "swift_versions": "5.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fuyoufang@163.com": "fuyoufang@163.com"
+  },
+  "source": {
+    "git": "https://github.com/fuyoufang@163.com/IAPWaveProgressView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "IAPWaveProgressView/Classes/**/*",
+  "dependencies": {
+    "Then": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

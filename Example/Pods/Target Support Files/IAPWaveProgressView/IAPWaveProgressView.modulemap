@@ -1,0 +1,6 @@
+framework module IAPWaveProgressView {
+  umbrella header "IAPWaveProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
