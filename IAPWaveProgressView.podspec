@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.screenshots     = 'https://github.com/FuYouFang/IAPWaveProgressView/raw/master/Images/prapare.png', 'https://github.com/FuYouFang/IAPWaveProgressView/raw/master/Images/paying.png', 'https://github.com/FuYouFang/IAPWaveProgressView/raw/master/Images/complate.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fuyoufang@163.com' => 'fuyoufang@163.com' }
-  s.source           = { :git => 'https://github.com/FuYouFang/IAPWaveProgressView', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FuYouFang/IAPWaveProgressView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
